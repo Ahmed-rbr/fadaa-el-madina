@@ -1,0 +1,4 @@
+blue:#3b85fe
+orange:#fb5509
+yellow:#febe0c
+pink:#fe0070
