@@ -3,7 +3,7 @@ import WhatsAppButton from "./WhatsAppButton";
 const Qst = () => {
   return (
     <section className="bg-purple  items-center  text-white p-6 flex flex-col gap-4 ">
-      <h2 className="text-4xl font-medium text-yellow">
+      <h2 className="text-4xl font-medium ">
         Do you have any other questions?
       </h2>{" "}
       <div className="my-4">
