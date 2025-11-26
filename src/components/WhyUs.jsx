@@ -10,31 +10,33 @@ const WhyUs = () => {
         </div>
         <div className="flex text-white md:p-6 p-3  flex-col gap-6">
           <p className="font-medium text-yellow">Why chose Fadaa El Madina?</p>
-          <h2 className="text-5xl tracking-wide  font-bold leading-normal">
+          <h2 className="md:text-5xl text-3xl  tracking-wide  font-bold leading-normal">
             Discover the future in the hands of our brilliant young minds!
           </h2>
-          <p className="text-gray-200 text-2xl tracking-wide leading-relaxed">
+          <p className="text-gray-200 md:text-left text-center text-2xl tracking-wide leading-relaxed">
             Here's what makes us the perfect choice for learning robotics,
             coding, electronics, and 3D design.
           </p>
           <ul className="flex flex-col gap-4 border-b p-3 border-white">
-            <li className="flex font-bold text-2xl items-center gap-2">
+            <li className="flex font-bold text-xl  md:text-2xl items-center gap-2">
               {" "}
-              <FaArrowRight className="bg-yellow rounded-full p-1 " />
+              <FaArrowRight className="bg-yellow rounded-full p-2 " />
               Student-Focused Teaching Methodology
             </li>
-            <li className="flex font-bold text-2xl items-center gap-2">
-              <FaArrowRight className="bg-yellow rounded-full p-1 " />
-              STEM Competency Building
-            </li>
-            <li className="flex font-bold text-2xl items-center gap-2">
-              <FaArrowRight className="bg-yellow rounded-full p-1 " />
-              Practical Hands-On Experience
-            </li>
-            <li className="flex font-bold text-2xl items-center gap-2">
+            <li className="flex font-bold text-xl  md:text-2xl items-center gap-2">
               {" "}
-              <FaArrowRight className="bg-yellow rounded-full p-1 " />
-              Qualified Instructors
+              <FaArrowRight className="bg-yellow rounded-full p-2 " /> STEM
+              Competency Building
+            </li>
+            <li className="flex font-bold text-xl  md:text-2xl items-center gap-2">
+              {" "}
+              <FaArrowRight className="bg-yellow rounded-full p-2 " /> Practical
+              Hands-On Experience
+            </li>
+            <li className="flex font-bold text-xl  md:text-2xl items-center gap-2">
+              {" "}
+              <FaArrowRight className="bg-yellow rounded-full p-2 " /> Qualified
+              Instructors
             </li>
           </ul>
           <p>
