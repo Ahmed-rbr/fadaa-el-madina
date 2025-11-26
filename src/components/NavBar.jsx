@@ -15,8 +15,8 @@ const NavBar = () => {
         className="w-20"
       />
 
-      <ul className="hidden md:flex gap-6 text-2xl font-black">
-        {["Home", "About", "Programs", "Contact"].map((item) => (
+      <ul className="hidden md:flex gap-12 text-2xl font-black">
+        {["Home", "About", "Programs", "Why us"].map((item) => (
           <li
             key={item}
             className="hover:text-purple-500 hover:underline duration-300 hover:scale-105 transition-all"
@@ -35,7 +35,7 @@ const NavBar = () => {
 
       {isOpen && (
         <ul className="absolute top-full left-0 w-full bg-white flex flex-col gap-4 text-center py-6 md:hidden shadow-lg">
-          {["Home", "About", "Programs", "Contact"].map((item) => (
+          {["Home", "About", "Programs", "Why us"].map((item) => (
             <li key={item} className="text-2xl font-bold">
               <a
                 href={`#${item.toLowerCase()}`}

@@ -33,7 +33,7 @@ const GridCards = () => {
           description={
             "Boosting memory, concentration, and rapid problem-solving through engaging mental math techniques."
           }
-          color={"orange"}
+          color={"yellow"}
           img={"/img2.png"}
         />
         <Card

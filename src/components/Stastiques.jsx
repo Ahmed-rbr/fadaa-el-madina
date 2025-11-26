@@ -21,6 +21,7 @@ const Stastiques = () => {
             </h3>
             <p>
               Our motivating environment encourages children to continue their
+              Our motivating environment encourages children to continue their
               learning journey with us
             </p>
           </div>

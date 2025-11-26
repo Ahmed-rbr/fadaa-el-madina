@@ -2,7 +2,7 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 const WhyUs = () => {
   return (
-    <section className="bg-purple p-8">
+    <section id="why us" className="bg-purple p-8">
       <div className="flex flex-col-reverse lg:flex-row gap-8 justify-between">
         <div className="">
           {" "}
@@ -37,7 +37,10 @@ const WhyUs = () => {
               Qualified Instructors
             </li>
           </ul>
-          <p>Join CMRIA for an exciting and enriching learning experience!</p>
+          <p>
+            Join Fadaa El Madina for an exciting and enriching learning
+            experience!
+          </p>
         </div>
       </div>
     </section>
