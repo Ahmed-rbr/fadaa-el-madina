@@ -3,14 +3,12 @@ import WhatsAppButton from "./WhatsAppButton";
 const Qst = () => {
   return (
     <section className="bg-purple  items-center  text-white p-6 flex flex-col gap-4 ">
-      <div className="">
-        <img className="rounded" src="qst.webp" alt="qst" />
-      </div>
-
       <h2 className="text-4xl font-medium text-yellow">
         Do you have any other questions?
-      </h2>
-
+      </h2>{" "}
+      <div className="my-4">
+        <img className="rounded" src="qst.webp" alt="qst" />
+      </div>
       <p className="font-medium tracking-wide leading-snug">
         If you have more questions , we're here to help. Don't hesitate to
         contact us directly - we'll be happy to answer all your inquiries.

@@ -3,7 +3,7 @@ import React from "react";
 const Stastiques = () => {
   return (
     <section className="bg-purple text-white">
-      <div className="flex flex-col gap-8 md:p-8 p-4">
+      <div className="flex flex-col gap-4 md:p-8 p-4">
         <p className="text-yellow font-medium ">Statistics</p>
         <h2 className="font-bold text-3xl md:text-5xl ">
           Fadaa El Madina In Numbers
@@ -15,8 +15,8 @@ const Stastiques = () => {
           tomorrow
         </p>
 
-        <div className="flex gap-4 w-full md:w-4/5 items-baseline  md:items-center md:flex-row flex-col border-b p-6  justify-between">
-          <p className="text-5xl md:text-7xl font-bold">80%</p>
+        <div className="flex gap-4 w-full md:w-4/5 items-baseline  md:items-center md:flex-row flex-col border-b p-2 md:p-6  justify-between">
+          <p className="text-5xl font-bold bg-yellow p-2 rounded-full">80%</p>
           <div className="flex gap-4 flex-col">
             <h3 className="text-2xl md:text-3xl font-medium">
               80% of children return every year.{" "}
@@ -29,8 +29,8 @@ const Stastiques = () => {
           </div>
         </div>
 
-        <div className="flex gap-4 w-4/5 items-baseline  md:items-center md:flex-row flex-col border-b p-6  justify-between">
-          <p className="text-5xl md:text-7xl font-bold">200+</p>
+        <div className="flex gap-4 w-full md:w-4/5 items-baseline  md:items-center md:flex-row flex-col border-b p-2 md:p-6  justify-between">
+          <p className="text-5xl font-bold bg-yellow p-2 rounded-full">200+</p>
           <div className="flex gap-4 flex-col">
             <h3 className="text-2xl md:text-3xl font-medium">
               200+ Children trained at Fadaa El Madina .{" "}
@@ -43,8 +43,8 @@ const Stastiques = () => {
           </div>
         </div>
 
-        <div className="flex gap-4 w-4/5 items-baseline  md:items-center md:flex-row flex-col border-b p-6  justify-between">
-          <p className="text-5xl md:text-7xl font-bold">10+</p>
+        <div className="flex gap-4 w-full md:w-4/5 items-baseline  md:items-center md:flex-row flex-col border-b p-2 md:p-6  justify-between">
+          <p className="text-5xl font-bold bg-yellow p-2 rounded-full">10+</p>
           <div className="flex gap-4 flex-col">
             <h3 className="text-2xl md:text-3xl font-medium">
               8+ Years of Experience
@@ -58,8 +58,8 @@ const Stastiques = () => {
           </div>
         </div>
 
-        <div className="flex gap-4 w-4/5 items-baseline  md:items-center md:flex-row flex-col border-b p-6  justify-between">
-          <p className="text-5xl md:text-7xl font-bold">100%</p>
+        <div className="flex gap-4 w-full md:w-4/5 items-baseline  md:items-center md:flex-row flex-col border-b p-2 md:p-6  justify-between">
+          <p className="text-5xl font-bold bg-yellow p-2 rounded-full">100%</p>
           <div className="flex gap-4 flex-col">
             <h3 className="text-2xl md:text-3xl font-medium">
               100% Positive Parent Feedback{" "}
