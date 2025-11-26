@@ -6,6 +6,9 @@ import DEcount from "./components/DEcount";
 import GridCards from "./components/GridCards";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import WhyUs from "./components/WhyUs";
+import Stastiques from "./components/Stastiques";
+import Qst from "./components/Qst";
 
 const App = () => {
   return (
@@ -14,7 +17,9 @@ const App = () => {
       <About />
       <DEcount />
       <GridCards />
-      <Contact />
+      <WhyUs />
+      <Stastiques />
+      <Qst />
       <Footer />
     </>
   );
